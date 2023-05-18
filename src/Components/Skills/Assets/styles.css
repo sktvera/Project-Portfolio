@@ -1,0 +1,49 @@
+/* false button */
+
+.containerMenu-img{
+    transition-duration: 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+.containerMenu-img:hover{
+    transition-duration: 1s;
+    cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.424);
+}
+
+/* active button */
+
+.containerMenu-img-active{
+    transition-duration: 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.424);
+}
+.containerMenu-img-active:hover{
+    transition-duration: 1s;
+    cursor: pointer;
+}
+
+.menuIcon-img{
+    height: 35px;
+    width: 35px;
+}
+.menuIcon-img img{
+    height: 100%;
+    object-fit: cover;
+}
+
+.SkillsTable{
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
+.SkillsTable-item{
+    height: 22px;
+}

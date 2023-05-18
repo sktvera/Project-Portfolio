@@ -1,0 +1,13 @@
+.banner img{
+    border-radius: 0px 0px 20% 20%;
+}
+
+.linkWpp{
+    text-decoration: none;
+    color: white;
+}
+
+.linkWpp:focus, .linkWpp:hover{
+    
+    color: #2BB741 !important;
+}
