@@ -1,5 +1,5 @@
 {
-  "homepage": "https://sktvera.github.io/",
+  "homepage": "https://sktvera.github.io/personal-portfolio",
   "name": "personal-portfolio",
   "version": "0.1.0",
   "private": true,
@@ -30,6 +30,7 @@
     "react-on-screen": "^2.1.1",
     "react-popper": "^2.3.0",
     "react-responsive-carousel": "^3.2.23",
+    "react-router-dom": "^6.11.2",
     "react-router-hash-link": "^2.4.3",
     "react-scripts": "5.0.1",
     "styled-components": "^5.3.10",
