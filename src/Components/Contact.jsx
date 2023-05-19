@@ -24,6 +24,8 @@ export const Contact = () => {
   }
 
   const handleSubmit = async (e) => {
+window.open('https://api.whatsapp.com/send/?phone=3183731442&text&type=phone_number&app_absent=0')
+    
     e.preventDefault();
     setButtonText("Sending...");
     let response = await fetch("http://localhost:5000/contact", {
@@ -75,7 +77,7 @@ export const Contact = () => {
                     </Col>
                     <Col size={12} className="px-1">
                       <textarea rows="6" value={formDetails.message} placeholder="Message" onChange={(e) => onFormUpdate('message', e.target.value)}></textarea>
-                      <button type="submit"><span>{buttonText}</span></button>
+                      <button  type="submit"><span>{buttonText}</span></button>
                     </Col>
                     {
                       status.message &&

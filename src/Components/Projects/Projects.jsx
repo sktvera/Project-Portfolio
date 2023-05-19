@@ -3,9 +3,7 @@ import UiUxCard from '../UiUxCard/UiUxCard'
 
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 
-/* import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import colorSharp2 from "../assets/img/color-sharp2.png"; */
+import SistemaNovio from './Assets/Img/SistemaNovio.jpeg'
 import wellezyUiUx from './Assets/Img/wellezyUiUx.png'
 import MercadoLiebre from './Assets/Img/MercadoLiebre.png'
 import MegaTvService from './Assets/Img/MegaTvService.png'
@@ -14,6 +12,8 @@ import Bertedeco from  './Assets/Img/Bertedeco.png'
 import Alura from './Assets/Img/Alura.png'
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+
+import './Assets/styles.css'
 
 export const Projects = () => {
 
@@ -49,10 +49,10 @@ export const Projects = () => {
       imgUrl: MercadoLiebre,
     },
     {
-      title: "",
-      description: "",
-      url: "",
-      imgUrl: Alura,
+      title: "Sistema Novio",
+      description: "administrative crm",
+      url: "https://github.com/sktvera/php-mysql-crud",
+      imgUrl: SistemaNovio,
     },
   ];
 
@@ -76,17 +76,17 @@ const uiux = [
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Projects</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <p>In this section you will find my projects where I managed to implement frontend development backend ui ux design.</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
-                      <Nav.Link eventKey="first">projects</Nav.Link>
+                      <Nav.Link className="label-nav-projects" eventKey="first">projects</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="second">ui/ux</Nav.Link>
+                      <Nav.Link className="label-nav-projects" eventKey="second">ui/ux</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="third">Tab 3</Nav.Link>
+                      <Nav.Link className="label-nav-projects" eventKey="third">github</Nav.Link>
                     </Nav.Item>
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
@@ -119,7 +119,14 @@ const uiux = [
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <p>xxxLorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                    
+                   
+                     <ul className="githubLink">
+                     
+                      <li><a href="https://github.com/sktvera/lexerTechnicalTest.git">https://github.com/sktvera/lexerTechnicalTest.git</a></li>
+                      <li><a href="https://github.com/sktvera/challenge_laravel.git">https://github.com/sktvera/challenge_laravel.git</a> </li>
+                     </ul>
+                    
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>

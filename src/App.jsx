@@ -1,7 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-/* import { NavBar } from "./Components/NavBar"; */
+import { Route, Routes } from 'react-router-dom'
 import { Banner } from "./Components/Banner/Banner";
 import { Skills } from "./Components/Skills/Skills";
 import { Projects } from "./Components/Projects/Projects";
@@ -11,7 +10,6 @@ import { Footer } from "./Components/Footer";
 function App() {
   return (
     <div className="App">
-      {/* <NavBar /> */}
       <Banner />
       <Skills />
       <Projects />
@@ -23,4 +21,3 @@ function App() {
 
 export default App;
 
-/* https://api.whatsapp.com/send/?phone=3183731442&text&type=phone_number&app_absent=0 */

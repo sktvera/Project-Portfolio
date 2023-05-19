@@ -1,0 +1,29 @@
+.githubLink{
+    display: grid;
+    grid-template-columns: auto auto;
+    list-style: none;
+    gap: 20px; 
+}
+.githubLink li a{
+    border-radius: 8px;
+    border: 1px solid rgba(255, 249, 249, 0.139);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+.label-nav-projects{
+    cursor: pointer;
+}
+
+@media (max-width:1800px) {
+    .githubLink{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .githubLink li a{
+        border: none ;
+    }
+  }

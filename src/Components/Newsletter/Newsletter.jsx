@@ -9,6 +9,7 @@ import { Col, Row, Alert } from "react-bootstrap";
   }, [status])
 
   const handleSubmit = (e) => {
+    window.open('https://api.whatsapp.com/send/?phone=3183731442&text&type=phone_number&app_absent=0')
     e.preventDefault();
     email &&
     email.indexOf("@") > -1 &&
