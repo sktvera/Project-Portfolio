@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.912b8bdd.css",
-    "main.js": "/static/js/main.54d4083f.js",
-    "static/js/787.fb771931.chunk.js": "/static/js/787.fb771931.chunk.js",
-    "static/media/Bertedeco.png": "/static/media/Bertedeco.ddb801d16dd31b8a39c0.png",
-    "static/media/wellezyUiUx.png": "/static/media/wellezyUiUx.ded49b97147d7519c903.png",
-    "static/media/MercadoLiebre.png": "/static/media/MercadoLiebre.f8246ae2b3e0a4867cae.png",
-    "static/media/Wellezy.png": "/static/media/Wellezy.822686550262328f5ede.png",
-    "static/media/profile.png": "/static/media/profile.e44d8a516d8bc333f9f1.png",
-    "static/media/SistemaNovio.jpeg": "/static/media/SistemaNovio.bbcedeb43fcc5fa7b499.jpeg",
-    "static/media/MegaTvService.png": "/static/media/MegaTvService.6de9a720e2624d4bc70e.png",
-    "static/media/Alura.png": "/static/media/Alura.b01cfe70d626ea54099f.png",
-    "static/media/alura.png": "/static/media/alura.b01cfe70d626ea54099f.png",
-    "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
-    "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
-    "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
-    "index.html": "/index.html",
-    "main.912b8bdd.css.map": "/static/css/main.912b8bdd.css.map",
-    "main.54d4083f.js.map": "/static/js/main.54d4083f.js.map",
-    "787.fb771931.chunk.js.map": "/static/js/787.fb771931.chunk.js.map"
+    "main.css": "/personal-portfolio/static/css/main.da7f08d3.css",
+    "main.js": "/personal-portfolio/static/js/main.f7b9dbc6.js",
+    "static/js/787.fb771931.chunk.js": "/personal-portfolio/static/js/787.fb771931.chunk.js",
+    "static/media/Bertedeco.png": "/personal-portfolio/static/media/Bertedeco.ddb801d16dd31b8a39c0.png",
+    "static/media/wellezyUiUx.png": "/personal-portfolio/static/media/wellezyUiUx.ded49b97147d7519c903.png",
+    "static/media/MercadoLiebre.png": "/personal-portfolio/static/media/MercadoLiebre.f8246ae2b3e0a4867cae.png",
+    "static/media/Wellezy.png": "/personal-portfolio/static/media/Wellezy.822686550262328f5ede.png",
+    "static/media/profile.png": "/personal-portfolio/static/media/profile.e44d8a516d8bc333f9f1.png",
+    "static/media/SistemaNovio.jpeg": "/personal-portfolio/static/media/SistemaNovio.bbcedeb43fcc5fa7b499.jpeg",
+    "static/media/MegaTvService.png": "/personal-portfolio/static/media/MegaTvService.6de9a720e2624d4bc70e.png",
+    "static/media/Alura.png": "/personal-portfolio/static/media/Alura.b01cfe70d626ea54099f.png",
+    "static/media/alura.png": "/personal-portfolio/static/media/alura.b01cfe70d626ea54099f.png",
+    "static/media/revicons.eot": "/personal-portfolio/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/personal-portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/personal-portfolio/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/personal-portfolio/index.html",
+    "main.da7f08d3.css.map": "/personal-portfolio/static/css/main.da7f08d3.css.map",
+    "main.f7b9dbc6.js.map": "/personal-portfolio/static/js/main.f7b9dbc6.js.map",
+    "787.fb771931.chunk.js.map": "/personal-portfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.912b8bdd.css",
-    "static/js/main.54d4083f.js"
+    "static/css/main.da7f08d3.css",
+    "static/js/main.f7b9dbc6.js"
   ]
 }
