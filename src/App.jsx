@@ -14,13 +14,7 @@ function App() {
       <Routes>
       <Route path='/' element={<Welcome/>}/>
       <Route path='/personal-portfolio' element={<Welcome/>}/>
-      </Routes>
-      <Banner />
-      <Skills />
-      <Projects />
-      <Contact />
-      <Footer />
-      
+      </Routes>     
     </div>
   );
 }
