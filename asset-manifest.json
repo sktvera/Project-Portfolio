@@ -1,14 +1,16 @@
 {
   "files": {
     "main.css": "/Project-Portfolio/static/css/main.b85a6ad8.css",
-    "main.js": "/Project-Portfolio/static/js/main.20ea346d.js",
+    "main.js": "/Project-Portfolio/static/js/main.91f6a01c.js",
     "static/js/787.19fc26f9.chunk.js": "/Project-Portfolio/static/js/787.19fc26f9.chunk.js",
     "static/media/Bertedeco.png": "/Project-Portfolio/static/media/Bertedeco.ddb801d16dd31b8a39c0.png",
     "static/media/wellezyUiUx.png": "/Project-Portfolio/static/media/wellezyUiUx.ded49b97147d7519c903.png",
     "static/media/MercadoLiebre.png": "/Project-Portfolio/static/media/MercadoLiebre.f8246ae2b3e0a4867cae.png",
     "static/media/Wellezy.png": "/Project-Portfolio/static/media/Wellezy.822686550262328f5ede.png",
+    "static/media/Mattelsa.jpeg": "/Project-Portfolio/static/media/Mattelsa.56da9d70ebd9461d441f.jpeg",
     "static/media/profile.png": "/Project-Portfolio/static/media/profile.e44d8a516d8bc333f9f1.png",
     "static/media/SistemaNovio.jpeg": "/Project-Portfolio/static/media/SistemaNovio.bbcedeb43fcc5fa7b499.jpeg",
+    "static/media/Cards.jpeg": "/Project-Portfolio/static/media/Cards.c35e64f158476a164030.jpeg",
     "static/media/MegaTvService.png": "/Project-Portfolio/static/media/MegaTvService.6de9a720e2624d4bc70e.png",
     "static/media/Alura.png": "/Project-Portfolio/static/media/Alura.b01cfe70d626ea54099f.png",
     "static/media/alura.png": "/Project-Portfolio/static/media/alura.b01cfe70d626ea54099f.png",
@@ -17,11 +19,11 @@
     "static/media/revicons.woff": "/Project-Portfolio/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/Project-Portfolio/index.html",
     "main.b85a6ad8.css.map": "/Project-Portfolio/static/css/main.b85a6ad8.css.map",
-    "main.20ea346d.js.map": "/Project-Portfolio/static/js/main.20ea346d.js.map",
+    "main.91f6a01c.js.map": "/Project-Portfolio/static/js/main.91f6a01c.js.map",
     "787.19fc26f9.chunk.js.map": "/Project-Portfolio/static/js/787.19fc26f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b85a6ad8.css",
-    "static/js/main.20ea346d.js"
+    "static/js/main.91f6a01c.js"
   ]
 }
