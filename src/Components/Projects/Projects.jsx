@@ -10,6 +10,9 @@ import MegaTvService from './Assets/Img/MegaTvService.png'
 import Wellezy from "./Assets/Img/Wellezy.png";
 import Bertedeco from  './Assets/Img/Bertedeco.png'
 import Alura from './Assets/Img/Alura.png'
+import Mattelsa from './Assets/Img/Mattelsa.jpeg'
+import Cards from './Assets/Img/Cards.jpeg'
+
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -53,6 +56,18 @@ export const Projects = () => {
       description: "administrative crm",
       url: "https://github.com/sktvera/php-mysql-crud",
       imgUrl: SistemaNovio,
+    },
+    {
+      title: "Challenge Cards",
+      description: "challenge react",
+      url: "https://sktvera.github.io/ChallengeCards/",
+      imgUrl: Cards,
+    },
+    {
+      title: "Mattelsa",
+      description: "clon app Mattelsa",
+      url: "https://sktvera.github.io/mattelsaChallenge/",
+      imgUrl: Mattelsa,
     },
   ];
 
